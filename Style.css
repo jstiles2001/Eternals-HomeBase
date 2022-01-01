@@ -1,0 +1,169 @@
+/* -----Universal Elements----- */
+* {
+  font-family: 'roboto', sans-serif;
+}
+
+/* -----TOP SECTION STYLES----- */
+
+/* Section 1 of 5 of the website */
+
+.The-Eternals-Container {  /* Contains the header on left and photo on right */
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 40px;
+}
+
+.left-website-about, .right-placeholder-image {
+  width: 400px;
+  height: 300px;
+  padding: 15px;
+}
+
+.top-image {
+  width: 400px;
+  height: auto;
+}
+
+.main-header {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.about-text {
+  font-size: 18px;
+}
+
+.top-button {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  font-size: 15px;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+}
+
+
+/* -----MEET THE CHARACTERS SECTION STYLES----- */
+.meet-the-characters-container {
+  padding: 10px 0 40px 0;
+  height: 450px
+}
+
+.information-header {
+  font-size: 36px;
+  color: #1F2937;
+  text-align: center;
+}
+
+.information-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.information {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+}
+
+.info-image {
+  width: 180px;
+  height: auto;
+  border-radius: 10px;
+  border-color: #CD7F32;
+  border-style: solid;
+}
+
+.subtext {
+  font-size: 18px;
+  text-align: center;
+  color: #1F2937;
+}
+
+
+/* -----QUOTE SECTION STYLES----- */
+.quote-container {
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 40px 0 70px;
+  height: 300px;
+}
+
+.quote-text {
+  padding: 20px 250px 20px 250px;
+  margin: 20px 0 20px 0;
+  font-size: 36px;
+  font-weight: 100;
+}
+
+.quote-author {
+  padding: 0px 250px 20px 250px;
+  margin: 0px 0 20px 0;
+  font-size: 36px;
+  text-align: end;
+}
+
+
+/* -----CALL TO ACTION SECTION STYLES----- */
+.sign-up-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+}
+
+.sign-up-box-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 350px;
+  background-color: #3882F6;
+  width: 1200px;
+  height: 200px;
+  border-radius: 15px;
+}
+
+.call-to-action-header {
+  font-size: 20px;
+  font-weight: 700;
+  color: #E5E7EB;
+}
+
+.call-to-action-statement {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.bottom-button {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  font-size: 15px;
+  border-radius: 5px;
+  border-color: #E5E7EB;
+  border-style: solid;
+  width: 100px;
+  height: 30px;
+}
+
+
+/* -----FOOTER SECTION STYLES----- */
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #1F2937;
+  height: 120px;
+}
+
+.footer-text {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
