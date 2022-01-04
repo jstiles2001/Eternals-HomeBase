@@ -23,8 +23,7 @@
   color: white;
   font-size: 18px;
   text-align: center;
-  padding: 25px 20px;
-  padding-right: 25px;
+  padding: 25px 25px;
   text-decoration: none;
 }
 
@@ -175,12 +174,24 @@
   height: 350px;
 }
 
-.find-out-more-box-container {
+.find-out-more-outer-box {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  height: 350px;
+  background-color: #1F2937;
+  align-items: center;
+  width: 1230px;
+  height: 230px;
+  border-radius: 20px;
+
+}
+
+.find-out-more-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
   background-color: #1F2937;
   width: 1200px;
   height: 200px;
@@ -188,6 +199,10 @@
   border-radius: 20px;
   border-color: #CD7F32;
   border-style: solid;
+}
+
+.find-out-more-box:hover {
+  border-color: white;
 }
 
 .call-to-action-header {
