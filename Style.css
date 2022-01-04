@@ -70,6 +70,10 @@
   margin-top: 5px;
 }
 
+.top-button:hover {
+  background-color: #252525;
+}
+
 .right-placeholder-image {
   padding: 20px;
   margin-right: 200px;
@@ -117,6 +121,10 @@
   border-radius: 20px;
   border-color: #CD7F32;
   border-style: solid;
+}
+
+.info-image:hover {
+  border-color: #1F2937;
 }
 
 .subtext {
@@ -194,6 +202,10 @@
   width: 150px;
   height: 40px;
   margin-top: 5px;
+}
+
+.bottom-button:hover {
+  background-color: #252525;
 }
 
 
