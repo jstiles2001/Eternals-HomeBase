@@ -85,6 +85,10 @@
   border-style: solid;
 }
 
+.right-placeholder-image:hover {
+  border-color: white;
+}
+
 .top-image {
   width: 400px;
   height: auto;
